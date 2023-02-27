@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "placed_block",
+			"conditions": {
+				"item": {
+					"items": [
+						"player_head"
+					],
+					"nbt": "{pigedit:{item_wand_1:1b}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "pigedit:global/wands/adv_1"
+	}
+}
