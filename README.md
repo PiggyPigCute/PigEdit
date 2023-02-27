@@ -1,5 +1,5 @@
 # PigEdit
-A DataPack like WorldEdit
+A 1.19.3 DataPack like WorldEdit
 
 
 # Commands
@@ -36,7 +36,7 @@ For any command, type `/trigger pigedit.<command> set -1` to get **help** for th
 
 `/trigger pigedit.paste`: Paste the content of the Clipboard n°1 at your position
 
- **→** Your relative position between you and the copied structure is the same whaen you copy and when you paste (like WorldEdit)
+ **→** Your relative position between you and the copied structure is the same when you copy and when you paste (like WorldEdit)
 
  ⚠️ The Clipboards are shared beetween all the players
 
