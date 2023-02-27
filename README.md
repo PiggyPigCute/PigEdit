@@ -4,6 +4,8 @@ A DataPack like WorldEdit
 
 # Commands
 
+For any command, type `/trigger pigedit.<command> set -1` to get **help** for this command
+
 ## Selection
 `/trigger pigedit.pos1`: Set the fisrt position at your position
 
@@ -14,15 +16,17 @@ A DataPack like WorldEdit
 (Click on the positions to tp)
 
 ### Wands
-`/trigger pigedit.wands`: Give tou the two selctor item
+`/trigger pigedit.wands`: Give you the two selctor items
 * Right Click to set the first or the second position
-* Drop to display the selection
+* Drop one to display the selection
 
 ## Build
 `/trigger pigedit.fill`: Fill the selected area with your selected item (item in your hand)
 
 `/trigger pigedit.clear`: Clear all the blocks in the selection
-\\
+
+
+
 `/trigger pigedit.circle set <radius>`: Create a circle centered on your position with the input radius with your selected item (item in your hand)
 
 `/trigger pigedit.circle.clear set <radius>`: Clear of hte blocks in a circle area centered on your position with the input radius
