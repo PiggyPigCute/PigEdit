@@ -1,0 +1,1 @@
+$tellraw @s ["",{"text":"Second position set ($(pos2x), $(pos2y), $(pos2z))","italic":true,"color":"gray"}]
