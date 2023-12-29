@@ -1,5 +1,5 @@
 
-# at-at: player
+# as-at: player
 
 
 #trigger
