@@ -7,7 +7,7 @@ function pigedit:global/selection/get_size
 
 
 # Tellraw
-execute store result storage pigedit:data data.var.size int 1 run scoreboard players get size pigedit.data
+function pigedit:macro/to_var {"from": "size", "to": "size"}
 function pigedit:global/selection/into_var
 function pigedit:macro/tellraw/pos with storage pigedit:data data.var
 

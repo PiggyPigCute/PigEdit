@@ -1,0 +1,1 @@
+$execute store result storage pigedit:data data.var.$(to) int 1 run scoreboard players get $(from) pigedit.data

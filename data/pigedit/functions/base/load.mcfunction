@@ -2,7 +2,6 @@
 
 say Youpi
 
-schedule function pigedit:base/sched_1s 1s replace
 
 
 scoreboard objectives add pigedit.data dummy
@@ -12,8 +11,12 @@ scoreboard objectives add pigedit.data.pos1z dummy
 scoreboard objectives add pigedit.data.pos2x dummy
 scoreboard objectives add pigedit.data.pos2y dummy
 scoreboard objectives add pigedit.data.pos2z dummy
+scoreboard objectives add pigedit.data.clipx dummy
+scoreboard objectives add pigedit.data.clipy dummy
+scoreboard objectives add pigedit.data.clipz dummy
 
-
+scoreboard objectives add pigedit.const dummy
+scoreboard players set -1 pigedit.const -1
 
 
 

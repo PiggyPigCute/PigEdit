@@ -6,5 +6,5 @@
 function pigedit:global/selection/into_var
 data modify storage pigedit:data data.var.block set value "air"
 
-# Macros
+# Macro
 function pigedit:macro/fill with storage pigedit:data data.var
