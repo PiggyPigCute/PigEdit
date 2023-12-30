@@ -2,15 +2,15 @@
 # as-at: player
 
 # Set var
-execute store result score minx pigedit.data run data get entity @s Pos[0]
-scoreboard players operation minx pigedit.data -= @s pigedit.data.clipx
-execute store result score miny pigedit.data run data get entity @s Pos[1]
-scoreboard players operation miny pigedit.data -= @s pigedit.data.clipy
-execute store result score minz pigedit.data run data get entity @s Pos[2]
-scoreboard players operation minz pigedit.data -= @s pigedit.data.clipz
+execute store result score .minx pigedit.data run data get entity @s Pos[0]
+scoreboard players operation .minx pigedit.data -= @s pigedit.data.clipx
+execute store result score .miny pigedit.data run data get entity @s Pos[1]
+scoreboard players operation .miny pigedit.data -= @s pigedit.data.clipy
+execute store result score .minz pigedit.data run data get entity @s Pos[2]
+scoreboard players operation .minz pigedit.data -= @s pigedit.data.clipz
 
-scoreboard players operation z pigedit.data = minz pigedit.data
-scoreboard players add z pigedit.data 1
+scoreboard players operation .z pigedit.data = .minz pigedit.data
+scoreboard players add .z pigedit.data 1
 
 function pigedit:macro/to_var {"from":"minx","to":"minx"}
 function pigedit:macro/to_var {"from":"miny","to":"miny"}
