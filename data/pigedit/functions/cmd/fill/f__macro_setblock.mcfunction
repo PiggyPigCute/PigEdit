@@ -1,0 +1,1 @@
+$execute $(mask)run setblock ~ ~ ~ $(block)

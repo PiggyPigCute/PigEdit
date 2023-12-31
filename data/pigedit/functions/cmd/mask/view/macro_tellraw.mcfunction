@@ -1,0 +1,1 @@
+$tellraw @s ["",{"text":"│ ","color":"gold"},{"text":"$(display) ","color":"aqua"},{"text":"🗑","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function pigedit:cmd/mask/view/click/remove {i:$(i)}"},"hoverEvent":{"action":"show_text","contents":"Click to remove this mask"}}]

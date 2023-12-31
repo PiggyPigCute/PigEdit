@@ -1,0 +1,1 @@
+$data modify storage pigedit:data data.var.display set from storage pigedit:data data.mask[$(i)].display

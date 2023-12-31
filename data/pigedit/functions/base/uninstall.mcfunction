@@ -28,8 +28,6 @@ scoreboard objectives remove pigedit.up
 scoreboard objectives remove pigedit.wands
 
 
-data remove storage pigedit:data PlayerHand
-data remove storage pigedit:data PlaceBlock
-data remove storage pigedit:data Clipboard
+data remove storage pigedit:data data
 
 

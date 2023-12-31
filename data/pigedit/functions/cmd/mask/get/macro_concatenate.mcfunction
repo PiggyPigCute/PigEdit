@@ -1,0 +1,1 @@
+$data modify storage pigedit:data data.temp set value "$(mask)$(neg)$(cond)"
