@@ -29,18 +29,24 @@ You can select an area choosing two corners. Several commands effect in the sele
 
 ## Build
 
-`/function _pig:fill`: Fill the selected area with your selected item (bloc in your hand)
+`/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)
 
-If you want to fill with air, you can have an empty hand, you can take a wand in the hand or use the `clear` command.
+`/function _pig:clear`: Clear all the blocks in the selection
 
-`/trigger pigedit.clear`: Clear all the blocks in the selection
+`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.
 
+### SelectedBlock
+
+"SelectedBlock" means the block in your main hand
+
+* If your main hand is empty, the "SelectedBlock" is air
+* If you have a wand in your main hand, the "SelectedBlock" is the same as the last block used
 
 ## Clipboard
 
 `/function _pig:copy`: Copy the selected area in your Clipbaord
 
-`/function _pig:paste`: Paste the content of your Clipboard at your position 
+`/function _pig:paste`: Paste the content of your Clipboard at your position
 
 `/function _pig:cut`: Clear and copy the selected area in your Clipbaord
 
@@ -49,3 +55,26 @@ If you want to fill with air, you can have an empty hand, you can take a wand in
  ⚠️ The Clipboards are limited to 48×48×48
 
 NB : The clipboards aren't shared between players. Each play have his own clipbaord.
+
+## Masks
+
+The masks add conditions to blocks to be modified when other commands are used.
+
+For the moment, only the `fill` command is impacted by mask.
+
+When you have several masks, only the blocks checking all the masks are replaced
+
+
+`/function _pig:mask.`: Give you the list of the current masks
+
+* Click on the 🗑️ button to remove a mask
+
+`/function _pig:mask.add.block`: Add a mask that filter the SelectedBlocks
+
+`/function _pig:mask.add.sup`: Add a mask that filter the blocks just over SelectedBlocks
+
+`/function _pig:mask.add.inf`: Add a mask that filter the blocks just under SelectedBlocks
+
+`/function _pig:mask.remove.all`: Remove all the current masks
+
+`/function _pig:mask.remove.n {n:__}`: Remove the mask at the position `n`
