@@ -16,6 +16,7 @@ scoreboard players reset .z2 pigedit.data
 scoreboard players reset .dz pigedit.data
 scoreboard players reset .pz pigedit.data
 scoreboard players reset .minz pigedit.data
+scoreboard players reset .i pigedit.data
 scoreboard players reset .r pigedit.data
 scoreboard players reset .h pigedit.data
 scoreboard players reset .m pigedit.data

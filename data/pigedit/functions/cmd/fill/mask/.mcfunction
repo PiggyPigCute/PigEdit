@@ -11,4 +11,4 @@ scoreboard players operation .px pigedit.data = .dx pigedit.data
 function pigedit:macro/to_var {from:minx,to:minx}
 function pigedit:macro/to_var {from:miny,to:miny}
 function pigedit:macro/to_var {from:minz,to:minz}
-function pigedit:cmd/fill/b__macro_start with storage pigedit:data data.var
+function pigedit:cmd/fill/mask/b__macro_min with storage pigedit:data data.var

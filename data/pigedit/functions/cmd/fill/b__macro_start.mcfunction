@@ -1,1 +1,0 @@
-$execute positioned $(minx) $(miny) $(minz) run function pigedit:cmd/fill/c__set_x
