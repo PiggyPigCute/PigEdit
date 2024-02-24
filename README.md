@@ -21,19 +21,21 @@ You can select an area choosing two corners. Several commands effect in the sele
 
 `/function _pig:pos`: Give you information about the selected area
 
-* The volume of the selected area (in m³)
-* The coordinates of the first position (you can click on to teleport to the first position)
-* The coordinates of the second position (you can also click on to teleport)
-* A `[Pos1]` button to set the first position at your current position
-* A `[Pos2]` button to set the second position at your current position
+* Volume of the selected area (in m³)
+* The volume turns orange when it's bigger than the commandModificationBlockLimit gamerule (you can click to increase the limit)
+* Coordinates of the first position (you can click to teleport to the first position)
+* Coordinates of the second position (you can also click to teleport)
+* Length along x, y, z of the selected area
+* `[Pos1]` button to set the first position at your current position
+* `[Pos2]` button to set the second position at your current position
 
 ## Build
 
-`/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)
+`/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)  ⟨🎭⟩
 
 `/function _pig:clear`: Clear all the blocks in the selection
 
-`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.
+`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩
 
 ### SelectedBlock
 
@@ -56,24 +58,32 @@ You can select an area choosing two corners. Several commands effect in the sele
 
 NB : The clipboards aren't shared between players. Each play have his own clipbaord.
 
-## Masks
+## 🎭 Masks
 
 The masks add conditions to blocks to be modified when other commands are used.
 
-For the moment, only the `fill` command is impacted by mask.
+Masks effect on the commands with the symbol ⟨🎭⟩
 
 When you have several masks, only the blocks checking all the masks are replaced
-
 
 `/function _pig:mask.`: Give you the list of the current masks
 
 * Click on the 🗑️ button to remove a mask
+* Click on the 🔄️ button to negate a mask
 
 `/function _pig:mask.add.block`: Add a mask that filter the SelectedBlocks
 
 `/function _pig:mask.add.sup`: Add a mask that filter the blocks just over SelectedBlocks
 
 `/function _pig:mask.add.inf`: Add a mask that filter the blocks just under SelectedBlocks
+
+`/function _pig:mask.add.raw {raw:__}`: Add a custom mask
+
+* For example `/function _pig:mask.add.raw {raw:"entity @e[type=pig,distance=..3]"}` creates a mask that filter the blocks near to a pig
+
+`/function _pig:mask.negate.last`: Negate the last mask (The negation of a mask filter all the block that wasn't filtered by the previous mask)
+
+`/function _pig:mask.negate.n {n:__}`: Negate the mask at the position `n`
 
 `/function _pig:mask.remove.all`: Remove all the current masks
 
