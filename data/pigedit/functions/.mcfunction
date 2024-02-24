@@ -1,4 +1,5 @@
 scoreboard players reset .x pigedit.data
+scoreboard players reset .x0 pigedit.data
 scoreboard players reset .x1 pigedit.data
 scoreboard players reset .x2 pigedit.data
 scoreboard players reset .dx pigedit.data
@@ -10,6 +11,7 @@ scoreboard players reset .y2 pigedit.data
 scoreboard players reset .dy pigedit.data
 scoreboard players reset .py pigedit.data
 scoreboard players reset .miny pigedit.data
+scoreboard players reset .z0 pigedit.data
 scoreboard players reset .z pigedit.data
 scoreboard players reset .z1 pigedit.data
 scoreboard players reset .z2 pigedit.data

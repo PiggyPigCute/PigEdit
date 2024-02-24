@@ -10,3 +10,4 @@ scoreboard players add .m pigedit.data 4
 
 # LOOP
 execute if score .x pigedit.data <= .y pigedit.data run function pigedit:cmd/cyl/loop
+# execute if score .debug pigedit.data matches 0 run function pigedit:cmd/cyl/loop

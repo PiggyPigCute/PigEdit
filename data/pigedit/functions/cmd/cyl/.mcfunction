@@ -1,13 +1,10 @@
 
 # Set var
 function pigedit:global/inv/block_select
-execute store result score .px pigedit.data run data get entity @s Pos[0]
-execute store result score .py pigedit.data run data get entity @s Pos[1]
-execute store result score .pz pigedit.data run data get entity @s Pos[2]
-function pigedit:macro/to_var {from:py,to:pos1y}
-scoreboard players operation .py pigedit.data += .h pigedit.data
-scoreboard players remove .py pigedit.data 1
-function pigedit:macro/to_var {from:py,to:pos2y}
+execute store result score .x0 pigedit.data run data get entity @s Pos[0]
+execute store result score .miny pigedit.data run data get entity @s Pos[1]
+execute store result score .z0 pigedit.data run data get entity @s Pos[2]
+execute if score .mask_number pigedit.data matches 0 run function pigedit:cmd/cyl/start_ez
 
 # Bresenham Algo
 scoreboard players set .x pigedit.data 0

@@ -14,10 +14,12 @@ scoreboard objectives add pigedit.data.pos2z dummy
 scoreboard objectives add pigedit.data.clipx dummy
 scoreboard objectives add pigedit.data.clipy dummy
 scoreboard objectives add pigedit.data.clipz dummy
+execute unless score .mask_number pigedit.data matches 1.. run scoreboard players set .mask_number pigedit.data 0
 
 scoreboard objectives add pigedit.const dummy
 scoreboard players set .-1 pigedit.const -1
 scoreboard players set .-4 pigedit.const -4
+scoreboard players set .2 pigedit.const 2
 scoreboard players set .8 pigedit.const 8
 
 
