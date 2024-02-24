@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "nbt": "{pigedit:{tool:1b}}"
+            }
+        }
+    }
+}

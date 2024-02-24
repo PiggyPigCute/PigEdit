@@ -10,8 +10,6 @@ scoreboard objectives remove pigedit.data.pos2y
 scoreboard objectives remove pigedit.data.pos2z
 scoreboard objectives remove pigedit.data
 
-scoreboard objectives remove pigedit.const
-
 scoreboard objectives remove pigedit.
 scoreboard objectives remove pigedit.circle
 scoreboard objectives remove pigedit.circle.clear

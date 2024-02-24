@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "copy_nbt",
+                            "source": {
+                                "type": "storage",
+                                "source": "pigedit:data"
+                            },
+                            "ops": [
+                                {
+                                    "op": "merge",
+                                    "source": "data.register.tool.tag",
+                                    "target": "{}"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

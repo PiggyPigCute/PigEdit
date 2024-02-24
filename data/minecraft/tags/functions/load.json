@@ -1,5 +1,7 @@
 {
     "values": [
+		"bs.hitbox:__load__",
+		"bs.raycast:__load__",
 		"pigedit:base/load"
 	]
 }

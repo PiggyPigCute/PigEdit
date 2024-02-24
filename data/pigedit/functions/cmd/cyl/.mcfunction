@@ -10,6 +10,6 @@ execute if score .mask_number pigedit.data matches 0 run function pigedit:cmd/cy
 scoreboard players set .x pigedit.data 0
 scoreboard players operation .y pigedit.data = .r pigedit.data
 scoreboard players operation .m pigedit.data = .r pigedit.data
-scoreboard players operation .m pigedit.data *= .-4 pigedit.const
+scoreboard players operation .m pigedit.data *= #-4 pigedit.data
 scoreboard players add .m pigedit.data 5
 function pigedit:cmd/cyl/loop
