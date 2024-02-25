@@ -4,4 +4,4 @@ function pigedit:global/selection/get_min
 function pigedit:global/selection/get_size
 
 # Execution
-function pigedit:cmd/fill/mask/
+function pigedit:cmd/fill/hard/

@@ -1,0 +1,1 @@
+$execute $(mask)run function pigedit:cmd/fill/hard/g__if_pattern

@@ -8,11 +8,11 @@ scoreboard players operation .minx pigedit.data = .x0 pigedit.data
 scoreboard players operation .minx pigedit.data -= .x pigedit.data
 scoreboard players operation .minz pigedit.data = .z0 pigedit.data
 scoreboard players operation .minz pigedit.data += .y pigedit.data
-function pigedit:cmd/fill/mask/
+function pigedit:cmd/fill/hard/
 
 scoreboard players operation .minz pigedit.data = .z0 pigedit.data
 scoreboard players operation .minz pigedit.data -= .y pigedit.data
-function pigedit:cmd/fill/mask/
+function pigedit:cmd/fill/hard/
 
 scoreboard players operation .dx pigedit.data = .y pigedit.data
 scoreboard players operation .dx pigedit.data *= #2 pigedit.data

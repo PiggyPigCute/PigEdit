@@ -1,0 +1,1 @@
+$execute store result score .i pigedit.data run random value 1..$(sum)

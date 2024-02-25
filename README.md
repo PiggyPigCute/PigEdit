@@ -31,11 +31,11 @@ You can select an area choosing two corners. Several commands effect in the sele
 
 ## Build
 
-`/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)  ⟨🎭⟩
+`/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)  ⟨🎭⟩⟨🎨⟩
 
 `/function _pig:clear`: Clear all the blocks in the selection
 
-`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩
+`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩⟨🎨⟩
 
 ### SelectedBlock
 
@@ -88,3 +88,15 @@ When you have several masks, only the blocks checking all the masks are replaced
 `/function _pig:mask.remove.all`: Remove all the current masks
 
 `/function _pig:mask.remove.n {n:__}`: Remove the mask at the position `n`
+
+## 🎨 Patterns
+
+The matterns allow place random mix of a weighted list of blocks.
+
+Patterns effects on the commands with the symbol ⟨🎨⟩.
+
+A pattern is an item, and you have to select it (instead of a basic block) in your main hand to use it.
+
+A filled shulker box works like a pattern (where the Counts of each item is the weight). It's also works with any block with `tag.BlockEntityTag.Items` (like chests or barrel "+NBT")
+
+You can also turn any item into a pattern. Place a filled container (as explained just above) is your offhand and any item in your main hand, then use the command `/function _pig:pattern` to turn the item (in the mainhand) into a pattern (with the content of the container).

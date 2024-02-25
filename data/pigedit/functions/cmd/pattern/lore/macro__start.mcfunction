@@ -1,0 +1,2 @@
+$data modify storage pigedit:data data.var.block set from storage pigedit:data data.var.pattern[$(i)].id
+$data modify storage pigedit:data data.var.j set from storage pigedit:data data.var.pattern[$(i)].Count

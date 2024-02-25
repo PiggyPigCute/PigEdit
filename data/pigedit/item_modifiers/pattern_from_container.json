@@ -1,0 +1,38 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Enchantments:[{}]}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "name": {"text": "Pattern", "italic": false}
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "pigedit:data"
+    },
+    "ops": [
+      {
+        "source": "data.var.pattern",
+        "target": "pigedit.pattern",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "pigedit:data"
+    },
+    "ops": [
+      {
+        "source": "data.var.lore",
+        "target": "display.Lore",
+        "op": "replace"
+      }
+    ]
+  }
+]

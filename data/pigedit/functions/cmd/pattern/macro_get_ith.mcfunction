@@ -1,0 +1,1 @@
+$execute store result score .get pigedit.data run data get storage pigedit:data data.var.pattern[$(i)].Count

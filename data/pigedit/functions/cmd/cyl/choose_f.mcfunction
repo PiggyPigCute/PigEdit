@@ -1,7 +1,7 @@
 
 # Placings
-execute if score .mask_number pigedit.data matches 1.. run function pigedit:cmd/cyl/place_hard/
-execute if score .mask_number pigedit.data matches 0 run function pigedit:cmd/cyl/place_ez
+execute if score .ez pigedit.data matches 1 run function pigedit:cmd/cyl/place_ez
+execute if score .ez pigedit.data matches 0 run function pigedit:cmd/cyl/place_hard/
 
 
 # Bresenham Algo

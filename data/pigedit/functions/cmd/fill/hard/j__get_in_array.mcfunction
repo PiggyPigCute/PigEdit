@@ -1,0 +1,1 @@
+$execute store result storage pigedit:data data.var.j int 1 run data get storage pigedit:data data.var.array[$(i)]

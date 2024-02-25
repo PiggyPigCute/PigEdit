@@ -4,8 +4,9 @@
 
 
 
-# Without mask
-execute if score .mask_number pigedit.data matches 0 run function pigedit:cmd/fill/player/classic
+# ez
+scoreboard players set .ez pigedit.data 0
+execute if score .mask_number pigedit.data matches 0 unless data storage pigedit:data data.var.pattern run function pigedit:cmd/fill/player/ez
 
-# With mask
-execute if score .mask_number pigedit.data matches 1.. run function pigedit:cmd/fill/player/mask
+# hard
+execute if score .ez pigedit.data matches 0 run function pigedit:cmd/fill/player/hard
