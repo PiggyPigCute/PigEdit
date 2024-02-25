@@ -5,7 +5,7 @@
 
 
 # Fill Pattern
-data remove storage pigedit:data data.var.pattern
+execute unless data entity @s SelectedItem.tag.pigedit run data remove storage pigedit:data data.var.pattern
 execute if data entity @s SelectedItem.tag.pigedit.pattern run data modify storage pigedit:data data.var.pattern set from entity @s SelectedItem.tag.pigedit.pattern
 execute if data entity @s SelectedItem.tag.BlockEntityTag.Items run data modify storage pigedit:data data.var.pattern set from entity @s SelectedItem.tag.BlockEntityTag.Items
 
