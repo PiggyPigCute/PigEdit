@@ -1,0 +1,1 @@
+$execute positioned -0.0125 -0.0125 0.0125 run summon text_display ~$(minx) ~$(miny) ~$(mid) {view_range:10f,see_through:0b,line_width:$(i),Tags:[pigedit.selection_frame.text_display,bob],text:'{"text":"$(name)"}',background:1677786880,Rotation:[-90f,90f]}

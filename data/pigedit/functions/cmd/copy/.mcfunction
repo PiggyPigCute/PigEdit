@@ -41,4 +41,4 @@ execute store result score @s pigedit.data.clipz run data get entity @s Pos[2]
 scoreboard players operation @s pigedit.data.clipz -= .minz pigedit.data
 
 # Display
-function pigedit:global/selection/view
+execute if score .selection_frame pigedit.data matches 0 run function pigedit:global/selection/particles/

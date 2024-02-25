@@ -11,4 +11,6 @@ execute store result score @s pigedit.data.pos2x run data get storage bs:out ray
 execute store result score @s pigedit.data.pos2y run data get storage bs:out raycast.targeted_block[1]
 execute store result score @s pigedit.data.pos2z run data get storage bs:out raycast.targeted_block[2]
 
-function pigedit:global/selection/view
+
+execute if score .selection_frame pigedit.data matches 1 run function pigedit:global/selection/frame/
+execute if score .selection_frame pigedit.data matches 0 run function pigedit:global/selection/particles/

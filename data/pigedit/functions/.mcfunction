@@ -25,6 +25,7 @@ scoreboard players reset .r pigedit.data
 scoreboard players reset .h pigedit.data
 scoreboard players reset .m pigedit.data
 scoreboard players reset .max pigedit.data
+scoreboard players reset .mid pigedit.data
 scoreboard players reset .size pigedit.data
 scoreboard players reset .sum pigedit.data
 scoreboard players reset .get pigedit.data

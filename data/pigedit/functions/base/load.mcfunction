@@ -22,6 +22,7 @@ scoreboard players set #-1 pigedit.data -1
 scoreboard players set #-4 pigedit.data -4
 scoreboard players set #2 pigedit.data 2
 scoreboard players set #8 pigedit.data 8
+scoreboard players set #40 pigedit.data 40
 
 data modify storage pigedit:data data.register.tool set value {id:"minecraft:warped_fungus_on_a_stick",tag:{pigedit:{tool:1b},CustomModelData:629000,Enchantments:[{}],display:{Name:'{"text":"PigEdit Tool","italic":false}'}}}
 

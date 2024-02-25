@@ -19,4 +19,4 @@ execute if score .size pigedit.data <= .max pigedit.data run function pigedit:ma
 
 
 # View
-function pigedit:global/selection/view
+execute if score .selection_frame pigedit.data matches 0 run function pigedit:global/selection/particles/
