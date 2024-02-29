@@ -1,3 +1,3 @@
 
-scoreboard players set .selection_frame pigedit.data 1
+scoreboard players set .selection_frame pigedit.settings 1
 function pigedit:global/selection/frame/

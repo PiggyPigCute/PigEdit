@@ -29,6 +29,12 @@ You can select an area choosing two corners. Several commands effect in the sele
 * `[Pos1]` button to set the first position at your current position
 * `[Pos2]` button to set the second position at your current position
 
+### Frame
+
+There are two ways to display the selected area. The first way uses particles (red particles at first position and blue particles at second one), the second way displays wide pannels (named "frame") and cover the whole area. The second way is easier to understand and vizualize but less optimized. You can switch display using `/function _pig:frame` or modify the value of `.selection_frame` in score `pigedit.settings` (editable with `/function _pig:settings`, `0` means display with particles and `1` means display with frame).
+
+Morever, when you use the second way, the frame doesn't display when the area is very huge. More precisely, when the size (number of block) of the area is bigger than the value of `.max_frame_size` in the score `pigedit.settings` (editable with `/function _pig:settings`, default value is `1000000`).
+
 ## Build
 
 `/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)  ⟨🎭⟩⟨🎨⟩

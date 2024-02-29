@@ -15,9 +15,11 @@ scoreboard objectives add pigedit.data.clipx dummy
 scoreboard objectives add pigedit.data.clipy dummy
 scoreboard objectives add pigedit.data.clipz dummy
 scoreboard objectives add pigedit.data.tool minecraft.used:warped_fungus_on_a_stick
-execute unless score .mask_number pigedit.data matches 1.. run scoreboard players set .mask_number pigedit.data 0
+scoreboard objectives add pigedit.settings dummy
 
-scoreboard objectives add pigedit.data dummy
+execute unless score .mask_number pigedit.data matches 1.. run scoreboard players set .mask_number pigedit.data 0
+execute unless score .selection_frame pigedit.settings matches 0.. run scoreboard players set .selection_frame pigedit.settings 1
+execute unless score .max_frame_size pigedit.settings matches 0.. run scoreboard players set .max_frame_size pigedit.settings 1000000
 scoreboard players set #-1 pigedit.data -1
 scoreboard players set #-4 pigedit.data -4
 scoreboard players set #2 pigedit.data 2
