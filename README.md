@@ -45,6 +45,8 @@ Morever, when you use the second way, the frame doesn't display when the area is
 
 `/function _pig:stack {stack:__}`: Duplicate the seleted area `stack` times in the direcrtion of your gaze.
 
+`/function _pig:stack.offset {stack:__, offset:"~__ ~__ ~__"}`: Duplicate the seleted area `stack` times with an offset of `offset` between each copies.
+
 ### SelectedBlock
 
 "SelectedBlock" means the block in your main hand
