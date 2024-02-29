@@ -43,6 +43,8 @@ Morever, when you use the second way, the frame doesn't display when the area is
 
 `/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩⟨🎨⟩
 
+`/function _pig:stack {stack:__}`: Duplicate the seleted area `stack` times in the direcrtion of your gaze.
+
 ### SelectedBlock
 
 "SelectedBlock" means the block in your main hand
