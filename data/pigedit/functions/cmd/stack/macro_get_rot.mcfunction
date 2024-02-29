@@ -1,0 +1,7 @@
+$execute if score .y pigedit.data matches ..-46 run data modify storage pigedit:data data.var.offset set value "~ ~$(dy) ~"
+$execute if score .y pigedit.data matches 46.. run data modify storage pigedit:data data.var.offset set value "~ ~-$(dy) ~"
+$execute if score .y pigedit.data matches -45..45 if score .x pigedit.data matches -180..-135 run data modify storage pigedit:data data.var.offset set value "~ ~ ~-$(dz)"
+$execute if score .y pigedit.data matches -45..45 if score .x pigedit.data matches -134..-45 run data modify storage pigedit:data data.var.offset set value "~$(dx) ~ ~"
+$execute if score .y pigedit.data matches -45..45 if score .x pigedit.data matches -44..45 run data modify storage pigedit:data data.var.offset set value "~ ~ ~$(dz)"
+$execute if score .y pigedit.data matches -45..45 if score .x pigedit.data matches 46..135 run data modify storage pigedit:data data.var.offset set value "~-$(dx) ~ ~"
+$execute if score .y pigedit.data matches -45..45 if score .x pigedit.data matches 136..180 run data modify storage pigedit:data data.var.offset set value "~ ~ ~-$(dz)"
