@@ -1,0 +1,1 @@
+function pigedit:cmd/mask/view_add/
