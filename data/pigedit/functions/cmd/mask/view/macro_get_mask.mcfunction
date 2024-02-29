@@ -1,1 +1,2 @@
 $data modify storage pigedit:data data.var.display set from storage pigedit:data data.mask[$(i)].display
+$data modify storage pigedit:data data.var.neg set from storage pigedit:data data.mask[$(i)].neg_display
