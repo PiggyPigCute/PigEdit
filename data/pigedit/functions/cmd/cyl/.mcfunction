@@ -1,6 +1,6 @@
 
 # Set var
-function pigedit:global/inv/block_select
+function pigedit:global/block/get_select
 execute store result score .x0 pigedit.data run data get entity @s Pos[0]
 execute store result score .miny pigedit.data run data get entity @s Pos[1]
 execute store result score .z0 pigedit.data run data get entity @s Pos[2]

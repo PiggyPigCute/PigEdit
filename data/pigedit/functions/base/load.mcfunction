@@ -27,6 +27,7 @@ scoreboard players set #2 pigedit.data 2
 scoreboard players set #8 pigedit.data 8
 scoreboard players set #40 pigedit.data 40
 
+data remove storage pigedit:data data.var
 data modify storage pigedit:data data.register.tool set value {id:"minecraft:warped_fungus_on_a_stick",tag:{pigedit:{tool:1b},CustomModelData:629000,Enchantments:[{}],display:{Name:'{"text":"PigEdit Tool","italic":false}'}}}
 
 schedule function pigedit:base/schedule_4t 4t replace

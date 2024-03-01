@@ -3,7 +3,7 @@
 
 
 # Set var
-function pigedit:global/inv/block_select
+function pigedit:global/block/get_select
 
 # Execution
 function pigedit:cmd/fill/player/

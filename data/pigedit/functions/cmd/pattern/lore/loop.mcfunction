@@ -1,6 +1,7 @@
 
 function pigedit:macro/to_var {from:i,to:i}
 function pigedit:cmd/pattern/lore/macro__start with storage pigedit:data data.var
+function pigedit:global/block/clean_minecraft
 function pigedit:cmd/pattern/lore/macro_append with storage pigedit:data data.var
 
 

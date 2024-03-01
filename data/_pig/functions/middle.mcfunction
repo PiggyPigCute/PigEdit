@@ -26,6 +26,6 @@ scoreboard players operation .minz pigedit.data -= .pz pigedit.data
 function pigedit:macro/to_var {from:minx,to:pos2x}
 function pigedit:macro/to_var {from:miny,to:pos2y}
 function pigedit:macro/to_var {from:minz,to:pos2z}
-function pigedit:global/inv/block_select
+function pigedit:global/block/get_select
 function pigedit:cmd/fill/macro with storage pigedit:data data.var
 
