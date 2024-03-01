@@ -39,9 +39,11 @@ Morever, when you use the second way, the frame doesn't display when the area is
 
 `/function _pig:fill`: Fill the selected area with your SelectedBloc (bloc in your hand)  ⟨🎭⟩⟨🎨⟩
 
+`/function _pig:hfill`: Fill only the borders of the selected area with your SelectedBlock  ⟨🎭⟩⟨🎨⟩
+
 `/function _pig:clear`: Clear all the blocks in the selection
 
-`/function _pig:cyl {r:__,h:__}`: Create a cylinder with yout SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩⟨🎨⟩
+`/function _pig:cyl {r:__,h:__}`: Create a cylinder with your SelectedBlock with a radius of `r` and a height of `h`.  ⟨🎭⟩⟨🎨⟩
 
 `/function _pig:stack {stack:__}`: Duplicate the seleted area `stack` times in the direcrtion of your gaze.
 

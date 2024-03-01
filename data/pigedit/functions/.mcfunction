@@ -23,6 +23,7 @@ scoreboard players reset .jmax pigedit.data
 scoreboard players reset .j pigedit.data
 scoreboard players reset .r pigedit.data
 scoreboard players reset .h pigedit.data
+scoreboard players reset .d pigedit.data
 scoreboard players reset .m pigedit.data
 scoreboard players reset .max pigedit.data
 scoreboard players reset .mid pigedit.data
@@ -30,5 +31,6 @@ scoreboard players reset .size pigedit.data
 scoreboard players reset .sum pigedit.data
 scoreboard players reset .get pigedit.data
 scoreboard players reset .ez pigedit.data
+scoreboard players reset .ok pigedit.data
 scoreboard players reset .debug pigedit.data
 scoreboard players reset debug pigedit.data
