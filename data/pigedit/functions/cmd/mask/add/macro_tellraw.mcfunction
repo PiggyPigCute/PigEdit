@@ -1,0 +1,1 @@
+$tellraw @s ["",{"text":"Mask ","color":"gray","italic":true},{"text":"$(display)","color":"aqua"},{"text":" succefully added ","color":"gray","italic":true},{"text":"🎭","color":"gold","clickEvent":{"action":"run_command","value":"/function pigedit:cmd/mask/view/"},"hoverEvent":{"action":"show_text","contents":{"text":"Show current masks list","color":"red"}}}]
