@@ -21,6 +21,7 @@ scoreboard players set .mask_number pigedit.data 0
 execute store result score .mask_number pigedit.data run data get storage pigedit:data data.mask
 execute unless score .selection_frame pigedit.settings matches 0.. run scoreboard players set .selection_frame pigedit.settings 1
 execute unless score .max_frame_size pigedit.settings matches 0.. run scoreboard players set .max_frame_size pigedit.settings 1000000
+execute unless score .see_through pigedit.settings matches 0..1 run scoreboard players set .see_through pigedit.settings 0
 scoreboard players set #-1 pigedit.data -1
 scoreboard players set #-4 pigedit.data -4
 scoreboard players set #2 pigedit.data 2

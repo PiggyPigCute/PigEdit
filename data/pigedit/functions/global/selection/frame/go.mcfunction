@@ -4,6 +4,8 @@ function pigedit:global/selection/get_min
 function pigedit:macro/to_var {from:minx,to:minx}
 function pigedit:macro/to_var {from:miny,to:miny}
 function pigedit:macro/to_var {from:minz,to:minz}
+execute store result storage pigedit:data data.var.see_through byte 1 run scoreboard players get .see_through pigedit.settings
+
 
 scoreboard players operation .max pigedit.data = .dy pigedit.data
 scoreboard players operation .max pigedit.data *= .dz pigedit.data
