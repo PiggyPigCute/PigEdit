@@ -9,3 +9,4 @@ execute if data storage pigedit:data {data:{var:{name:cyl}}} run function pigedi
 execute if data storage pigedit:data {data:{var:{name:rect}}} run function pigedit:cmd/brush/rect/
 execute if data storage pigedit:data {data:{var:{name:cube}}} run function pigedit:cmd/brush/cube/
 execute if data storage pigedit:data {data:{var:{name:raw}}} run function pigedit:cmd/brush/raw/
+execute if data storage pigedit:data {data:{var:{name:paste}}} run function pigedit:cmd/brush/paste/
