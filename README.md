@@ -10,12 +10,11 @@ By default, the line for the commands is `/function _pig:<command>` but you can 
 
 You can select an area choosing two corners. Several commands effect in the selection.
 
-### Wands
+### Tool
 
-`/function _pig:wands`: Give you the two selector items
+`/function _pig:tool`: Give you the tool
 
-* Right Click to set the first or the second position (the corners of the selection)
-* Drop any wand to display the selection
+* Right Click to set the positions (the corners of the selection)
 
 ### Pos command
 
