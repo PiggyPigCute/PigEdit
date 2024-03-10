@@ -1,1 +1,1 @@
-$data modify storage pigedit:data data.var.lore append value '{"text":"($(j)×) $(block)","color":"dark_gray","italic":false}'
+$data modify storage pigedit:data data.var.lore append value '{"text":"($(j)×) $(block)","color":"gray","italic":false}'

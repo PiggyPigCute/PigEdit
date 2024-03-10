@@ -1,0 +1,2 @@
+$data modify storage pigedit:data data.item.display.Lore append value '{"text":"$(block)","color":"gray","italic":false}'
+$data modify storage pigedit:data data.item.pigedit.brush.block set value "$(block)"

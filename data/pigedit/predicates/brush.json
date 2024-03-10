@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "mainhand": {
+                    "nbt": "{pigedit:{brush:{}}}"
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "equipment": {
+                "offhand": {
+                    "nbt": "{pigedit:{tool:1b}}"
+                }
+            }
+        }
+    }
+]
