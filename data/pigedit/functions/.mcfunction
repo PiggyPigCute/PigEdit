@@ -32,5 +32,3 @@ scoreboard players reset .sum pigedit.data
 scoreboard players reset .get pigedit.data
 scoreboard players reset .ez pigedit.data
 scoreboard players reset .ok pigedit.data
-scoreboard players reset .debug pigedit.data
-scoreboard players reset debug pigedit.data

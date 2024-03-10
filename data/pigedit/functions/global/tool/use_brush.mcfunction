@@ -1,4 +1,4 @@
-data modify storage bs:in raycast.max_distance set value 64.0
+execute store result storage bs:in raycast.max_distance float 1 run scoreboard players get .brush_reach pigedit.data
 execute anchored eyes positioned ^ ^ ^ run function #bs.raycast:run
 
 execute unless data storage bs:out raycast.targeted_block run return fail

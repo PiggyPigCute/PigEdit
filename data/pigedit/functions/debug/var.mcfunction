@@ -1,1 +1,0 @@
-$tellraw @p ["",{"text":"$(var): ","color":"gray","italic":true},{"score":{"name":".$(var)","objective":"pigedit.data"},"color":"gray","italic":true}]
