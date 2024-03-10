@@ -1,4 +1,4 @@
-execute store result storage bs:in raycast.max_distance float 1 run scoreboard players get .tool_reach pigedit.data
+execute store result storage bs:in raycast.max_distance float 1 run scoreboard players get .tool_reach pigedit.settings
 execute anchored eyes positioned ^ ^ ^ run function #bs.raycast:run
 
 execute unless data storage bs:out raycast.targeted_block run return fail

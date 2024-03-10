@@ -2,7 +2,7 @@
 # Display
 tellraw @a {"text":"[Loaded PigEdit]","italic":false,"color":"green"}
 
-# Scores
+# Dummy Scores
 scoreboard objectives add pigedit.data dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Data","color":"gold"}]
 scoreboard objectives add pigedit.data.pos1x dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Selection x1","color":"gold"}]
 scoreboard objectives add pigedit.data.pos1y dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Selection y1","color":"gold"}]
@@ -13,8 +13,11 @@ scoreboard objectives add pigedit.data.pos2z dummy [{"text":"PigEdit ","color":"
 scoreboard objectives add pigedit.data.clipx dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Clipboard x","color":"gold"}]
 scoreboard objectives add pigedit.data.clipy dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Clipboard y","color":"gold"}]
 scoreboard objectives add pigedit.data.clipz dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Clipboard z","color":"gold"}]
-scoreboard objectives add pigedit.data.tool minecraft.used:warped_fungus_on_a_stick [{"text":"PigEdit ","color":"dark_green"},{"text":"Tool (wfoas)","color":"gold"}]
 scoreboard objectives add pigedit.settings dummy [{"text":"PigEdit ","color":"dark_green"},{"text":"Settings","color":"gold"}]
+
+# Tool score (Warped fungus on a stick)
+scoreboard objectives add pigedit.data.tool minecraft.used:warped_fungus_on_a_stick [{"text":"PigEdit ","color":"dark_green"},{"text":"Tool (wfoas)","color":"gold"}]
+scoreboard players set @a pigedit.data.tool 0
 
 # Mask number
 scoreboard players set .mask_number pigedit.data 0
